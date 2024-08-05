@@ -1,16 +1,18 @@
-# whatsapp_ui
+# Whatsapp UI
+A whatsapp UI clone of updated version of whatsapp 
 
-A new Flutter project.
+#
+<img src="assets/readme/homeScreeen.png" alt="Home" width="200"/>
+# Home Screen Screen shot
 
-## Getting Started
+#
+<img src="assets/readme/callsScreen.png" alt="Calls" width="200"/>
+# Call widget Screenshot
 
-This project is a starting point for a Flutter application.
+#
+<img src="assets/readme/updateScreen.png" alt="Update" width="200"/>
+# Update widget Screen shot
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#
+# Feedback
+If you have any feedback, please reach out to me at lohaniprince72@gmail.com
