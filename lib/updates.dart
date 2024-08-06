@@ -282,10 +282,23 @@ class _UpdateScreenState extends State<UpdateScreen> {
       floatingActionButton: Column(
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          Container(child: FloatingActionButton(onPressed: null,child: Icon(Icons.abc),elevation: 3,backgroundColor: Color.fromARGB(255, 243, 234, 231),),),
-          SizedBox(height: 1.h,),
-          FloatingActionButton(onPressed: null,child: Icon(Icons.camera_alt),backgroundColor: Colors.green,)
-          ],
+          Container(
+            child: FloatingActionButton(
+              onPressed: null,
+              child: Icon(Icons.abc),
+              elevation: 3,
+              backgroundColor: Color.fromARGB(255, 243, 234, 231),
+            ),
+          ),
+          SizedBox(
+            height: 1.h,
+          ),
+          FloatingActionButton(
+            onPressed: null,
+            child: Icon(Icons.camera_alt),
+            backgroundColor: Colors.green,
+          )
+        ],
       ),
     );
   }
