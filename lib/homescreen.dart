@@ -161,11 +161,12 @@ class _HomeScreenState extends State<HomeScreen> {
                         ],
                       ),
                     );
-                  })
+                  }),
             ],
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton(onPressed: null,child: Icon(Icons.add_box),backgroundColor: Colors.green,),
     );
   }
 }

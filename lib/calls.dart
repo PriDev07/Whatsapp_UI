@@ -156,6 +156,7 @@ class Calls extends StatelessWidget {
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton(onPressed: null,child: Icon(Icons.call_sharp),backgroundColor: Colors.green,),
     );
   }
 }

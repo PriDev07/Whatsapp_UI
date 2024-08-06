@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:sizer/sizer.dart';
 
 class UpdateScreen extends StatefulWidget {
@@ -78,7 +79,6 @@ class _UpdateScreenState extends State<UpdateScreen> {
                                 children: [
                                   CircleAvatar(
                                     radius: 35,
-                                    
                                   ),
                                   Text(
                                     "My Status",
@@ -278,6 +278,14 @@ class _UpdateScreenState extends State<UpdateScreen> {
             ],
           ),
         ),
+      ),
+      floatingActionButton: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          Container(child: FloatingActionButton(onPressed: null,child: Icon(Icons.abc),elevation: 3,backgroundColor: Color.fromARGB(255, 243, 234, 231),),),
+          SizedBox(height: 1.h,),
+          FloatingActionButton(onPressed: null,child: Icon(Icons.camera_alt),backgroundColor: Colors.green,)
+          ],
       ),
     );
   }
