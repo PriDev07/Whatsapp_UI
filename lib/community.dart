@@ -11,6 +11,7 @@ class Community extends StatelessWidget {
       backgroundColor: Color.fromARGB(179, 239, 237, 237),
       appBar: AppBar(
         elevation: 0,
+        backgroundColor: Color(0xffffffff),
         scrolledUnderElevation: 0,
         automaticallyImplyLeading: false,
         centerTitle: false,
@@ -71,7 +72,7 @@ class Community extends StatelessWidget {
               ),
             ),
             ListView.builder(
-              itemCount: 5,
+                itemCount: 5,
                 physics: NeverScrollableScrollPhysics(),
                 shrinkWrap: true,
                 itemBuilder: (BuildContext context, int index) {
@@ -103,7 +104,7 @@ class Community extends StatelessWidget {
                                   width: 5.w,
                                 ),
                                 Text(
-                                  "CodeSavvy",
+                                  "CodePrinz",
                                   style: TextStyle(
                                       fontSize: 20,
                                       color: Colors.black,
@@ -151,7 +152,7 @@ class Community extends StatelessWidget {
                                                 fontSize: 19),
                                           ),
                                           Text(
-                                            "Welcome to CodeSavvy guys",
+                                            "Welcome to CodePrinz guys",
                                             style: TextStyle(
                                                 color: Colors.grey,
                                                 fontWeight: FontWeight.bold,
@@ -290,12 +291,16 @@ class Community extends StatelessWidget {
                                   Text(
                                     "View all",
                                     style: TextStyle(
-                                        color: Colors.grey, fontSize: 20,fontWeight: FontWeight.w400),
+                                        color: Colors.grey,
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.w400),
                                   )
                                 ],
                               ),
                             ),
-                            SizedBox(height: 3.h,)
+                            SizedBox(
+                              height: 3.h,
+                            )
                           ],
                         ),
                       ),

@@ -225,7 +225,7 @@ class _UpdateScreenState extends State<UpdateScreen> {
                               height: 1.h,
                             ),
                             Text(
-                              "Devsthanam",
+                              "CodePrinz",
                               style:
                                   TextStyle(color: Colors.black, fontSize: 17),
                             ),
